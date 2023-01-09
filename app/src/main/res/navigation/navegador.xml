@@ -20,8 +20,11 @@
         android:label="fragment_segundo"
         tools:layout="@layout/fragment_segundo" >
         <action
-            android:id="@+id/action_segundoFragment_to_tercerFragment"
+            android:id="@+id/action_segundoFragment_to_tercerFragment2"
             app:destination="@id/tercerFragment" />
+        <argument
+            android:name="Persona"
+            app:argType="com.baileninformacion.navigationcomponentobjeto.Persona" />
     </fragment>
     <fragment
         android:id="@+id/tercerFragment"
